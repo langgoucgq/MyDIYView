@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyImageTextView">
+        <attr name="Text" format="reference|string"/>
+        <attr name="Oriental">
+
+            <enum name="Vertical" value="0"/>
+            <enum name="Horizontal" value="1"/>
+
+        </attr>
+        <attr name="Src" format="reference|integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyLayout">
+        <attr name="rowNum" format="integer"/>
+    </declare-styleable>
+</resources>
