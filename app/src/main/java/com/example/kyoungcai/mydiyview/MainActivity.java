@@ -19,7 +19,8 @@ public  class MainActivity extends AppCompatActivity {
 
 
         initView();
-        Log.i("cky","cky");
+        Log.i("cky","cky111");
+
         initEvent();
     }
 
