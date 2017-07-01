@@ -18,4 +18,10 @@ public class Utils {
         return (int) (px/density+0.5f);
     }
 
+
+    public static int sp2px(Context context, float spValue) {
+        final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
+        return (int) (spValue * fontScale + 0.5f);
+    }
+
 }

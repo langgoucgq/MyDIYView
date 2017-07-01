@@ -9,21 +9,23 @@
     tools:context="com.example.kyoungcai.mydiyview.MainActivity">
 
 
-
-    <!--<com.example.kyoungcai.mydiyview.MyImageTextView
+    <com.example.kyoungcai.mydiyview.MyImageTextView
         app:Text="@string/app_name"
         app:Oriental="Vertical"
+        app:TextColor="@color/colorAccent"
         app:Src="@mipmap/ic_launcher_round"
-        android:layout_width="100dp"
-        android:layout_height="100dp"></com.example.kyoungcai.mydiyview.MyImageTextView>
+        app:TextSize="18sp"
+        app:ImageSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <com.example.kyoungcai.mydiyview.myview.MyImageView
         android:src="@mipmap/ic_launcher_round"
         android:layout_width="100dp"
-        android:layout_height="100dp" />-->
+        android:layout_height="100dp" />
 
 
-            <com.example.kyoungcai.mydiyview.myview.MyLayout
+          <!--  <com.example.kyoungcai.mydiyview.myview.MyLayout
                 android:id="@+id/mylayout"
                 app:rowNum="3"
                 android:padding="1dp"
@@ -36,7 +38,7 @@
                 android:max="40"
                 android:progress="3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content" />-->
 
 
 

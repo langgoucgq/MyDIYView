@@ -18,10 +18,10 @@ public  class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        initView();
+      /*  initView();
         Log.i("cky","cky111");
 
-        initEvent();
+        initEvent();*/
     }
 
     private void initEvent() {
@@ -36,7 +36,6 @@ public  class MainActivity extends AppCompatActivity {
             public void onStartTrackingTouch(SeekBar seekBar) {
 
 
-
             }
 
             @Override
@@ -46,9 +45,9 @@ public  class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void initView() {
+   /* private void initView() {
         myLayout= (MyLayout) findViewById(R.id.mylayout);
         mySeekBar= (SeekBar) findViewById(R.id.my_seekbar);
 
-    }
+    }*/
 }

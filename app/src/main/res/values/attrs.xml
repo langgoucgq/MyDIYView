@@ -9,6 +9,14 @@
 
         </attr>
         <attr name="Src" format="reference|integer"/>
+
+        <!--指定字体文字大小-->
+        <attr name="TextSize" format="dimension"/>
+
+        <!--指定字体颜色-->
+        <attr name="TextColor" format="color"/>
+        <!--图标大小-->
+        <attr name="ImageSize" format="dimension"/>
     </declare-styleable>
 
     <declare-styleable name="MyLayout">
